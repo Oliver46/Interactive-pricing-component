@@ -127,6 +127,9 @@ input[type=range]::-webkit-slider-thumb {
     background-position: center;
 
   }
+  input[type=range]::-webkit-slider-thumb:hover {
+    box-shadow: 2px 2px 2px var(--grayish-blue);
+  }
   
   input[type=range]::-moz-range-thumb {
     -webkit-appearance: none;
