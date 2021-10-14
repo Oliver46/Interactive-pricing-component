@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simple traffic-based pricing</title>
+</head>
+<body>
+    <img src="images/bg-pattern.svg" class="bg-image" alt="">
+
+    <div class="wrapper">
+        <header>
+            <img class="circles-img" src="images/pattern-circles.svg" alt="">
+            <div class="header_text">
+                <h1>Simple traffic-based pricing</h1>
+                <p>Sign-up for our 30-day trial. No credit card required.</p>
+            </div>
+           
+        </header>
+
+        <section class="box">
+            <div class="box-header">
+                <p><span id="pageview">100K</span> PAGEVIEWS</p>
+                <p class="month"><span class="dollar">$<span class="dollarNumber">16</span>.00 </span>/month</p>
+            </div>
+            <div class="box-body">
+                <input id="myRange" type="range" value="16" min="8" max="36" step="4">
+                <p class="amount month"><span class="dollar">$<span class="dollarNumber" id="dollarNumberSD">16</span>.00 </span>/month</p>
+                <div class="box-toggler">
+                    <span class="toggler-text">Monthly Billing</span>
+                    <span class="toggler"></span>
+                    <span class="toggler-text">Yearly Billing <i class="discount hide1">25% discount</i><i class="discount hide2">-25%</i></span>
+                </div>
+            </div>
+            <div class="line"></div>
+                <div class="box-footer">
+                    <ul class="list">
+                        <li><img src="images/icon-check.svg" alt=""> Unlimited websites</li>
+                        <li><img src="images/icon-check.svg" alt=""> 100% data ownership</li>
+                        <li><img src="images/icon-check.svg" alt=""> Email reports</li>
+                    </ul> 
+                <button class="btn">Start my trial</button>
+            </div>
+        </section>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
