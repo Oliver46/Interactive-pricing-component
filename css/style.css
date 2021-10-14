@@ -227,6 +227,8 @@ button.btn{
     border-radius: 25px;
     width: 140px;
     height: 40px;
+    transform: scale(1);
+    transition: all .7s ease;
    
 }
 button.btn:hover {
@@ -236,6 +238,7 @@ button.btn:hover {
 button.btn:active{
     color: var(--very-pale-blue);
     background-color: var(--dark-desaturated-blue);
+    transform: scale(.9);
 }
 
 @media(max-width:500px){
